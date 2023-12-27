@@ -1,0 +1,291 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin:0px;}
+
+.top-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 100px;
+    height: 408px;
+    gap: 10px;
+    background: linear-gradient(87deg, #005090 0%, #FFF 89%);}
+
+.page-title {
+    display: flex;
+    text-align: center;
+    margin: 10px 0px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;}
+
+.sub-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    margin: 10px 0px;    
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;}
+
+.arrow-button {
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    margin: 10px 0px;
+    padding: 0px;}
+
+.material-symbols-outlined {
+    color: orange;
+    font-family: 'Material Symbols Outlined';
+    font-size: 40px !important;}
+
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 150px;
+    gap: 10px;}
+    
+
+.video {
+    width: 700px;
+    height: 500px;
+    border: none;}/* Desktop deivces*/
+
+    @media (max-width: 1024px) {
+        .video {
+            width: 600px;
+            height: 450px;}} /* Tablet devices (width between 768px and 1024px) */
+
+
+    @media (max-width: 767px) {
+        .video {
+            width: 600px; 
+            height: auto;}}/* Mobile devices (width up to 767px) */
+
+
+.benefit {
+    margin: 7px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;}
+
+    @media (max-width: 767px){
+        .benefit{
+            align-items: center;
+            text-align: center;
+            width: 300px;}}
+
+           
+.technical-border {
+    display: flex;
+    align-self: stretch;
+    width: 100%;
+    margin-top: 40px;
+    background: #FFC005;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 20px;}
+
+@media (max-width: 767px) {
+    .technical-border {
+        width: 250px;
+        align-self: center;}}
+
+
+.pipe-configuration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;}
+
+.pipe-full {
+    border: 3px solid rgba(12, 113, 195, 0.32);
+    margin: 5px; /* Reduce margin for less space between each pipe-full section */}
+
+.pipe-title {
+    display: flex;
+    flex: stretch;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0px; /* Increase padding for the pipe title */
+    background: rgba(12, 113, 195, 0.32);
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px; /* Increase font size for the pipe title */}
+
+.pipe-image {
+    display: flex;
+    align-content: center;
+    width: 300px; /* Increase width for the pipe image */
+    height: 240px; /* Increase height for the pipe image */
+    padding: 15px 0px; /* Increase padding for the pipe image */
+    object-fit: cover;}
+
+.pipe-info {
+    text-align: center;
+    font-size: 16px; /* Increase font size for the pipe info */
+    font-weight: 300;
+    margin: 0px;
+    padding-bottom: 10px;}
+
+.telescopic-diagram {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 150px;
+    object-fit: cover;}
+
+    @media (max-width: 767px) {
+        .telescopic-diagram {
+            object-fit: cover;
+            width:350px;
+            height:180px;
+            align-self:center;}}/* Mobile devices (width up to 767px) */
+
+.Operational-types {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;}
+
+.operation-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+    border: 2px solid #FFC005;}
+
+.operation-image {
+    margin:0px;
+    object-fit: cover;}
+
+.operation-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    background: #FFC005;
+    font-weight: 600;
+    height: 25px;
+    margin: 0px;}
+
+.innovative-technology {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:300px;
+    margin-top:100px;
+    margin-left:50px;
+    margin-right:50px;
+    text-align:center;}
+
+    
+    @media screen and (max-width: 600px) {
+    .innovative-technology {
+        flex-direction: column;
+        gap:10px;
+        text-align: center;}/* Media Query for Mobile Devices */}
+
+
+    @media (max-width: 1024px) {
+    .innovative-technology{
+        flex-direction: column;
+        gap:10px;
+        text-align: center;}} /* Tablet devices (width between 768px and 1024px) */
+
+.innovative-technology-text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;}
+
+    @media screen and (max-width: 600px) {
+        .innovative-technology-text {
+            width: 250px;}/* Media Query for Mobile Devices */}
+
+.innovative-title {
+    padding-bottom:4px;
+    border-bottom: 2px solid #ffc005;
+    font-size: 30px;}
+
+.innovative-image {
+    display: flex;
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;}
+    
+    @media screen and (max-width: 600px) {
+        .innovative-image {
+            width:230px;
+            height:172px;
+            text-align: center;}/* Media Query for Mobile Devices */}
+
+.background-section {
+    background: linear-gradient(to right, white, transparent), url('images/offshore\ gas\ pipe.jpeg'); /* Adjust your gradient as needed */
+    background-size: cover;
+    padding: 20px;margin-top: 90px;}
+
+
+.title-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding:80px 30px;}
+
+    @media screen and (max-width: 600px) {
+        .title-form {
+            display: flex;
+            flex-direction: column;}/* Media Query for Mobile Devices */}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    text-align: left;}
+
+    @media screen and (max-width: 600px) {
+        .left-side {
+            text-align: center;}/* Media Query for Mobile Devices */}
+
+.title {
+    font-size: 45px;
+    color: #144B8D;
+    font-weight: 800;
+    line-height:60px;}
+
+.CTA-description {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.8px;
+    width:80%;}
+
+
+  input[type="text"], input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;  }
+
+  input[type="submit"] {
+    width: 80%;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;}
