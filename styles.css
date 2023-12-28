@@ -55,7 +55,7 @@
 .video {
     width: 700px;
     height: 500px;
-    border: none;}/* Desktop devices*/
+    border: none;}/* Desktop deivces*/
 
     @media (max-width: 1024px) {
         .video {
@@ -115,18 +115,18 @@
     flex: stretch;
     justify-content: center;
     margin: 0px;
-    padding: 10px 0px; 
+    padding: 10px 0px; /* Increase padding for the pipe title */
     background: rgba(12, 113, 195, 0.32);
     font-weight: 600;
     text-align: center;
-    font-size: 20px; 
+    font-size: 20px; /* Increase font size for the pipe title */}
 
 .pipe-image {
     display: flex;
     align-content: center;
-    width: 300px; 
-    height: 240px; 
-    padding: 15px 0px; 
+    width: 300px; /* Increase width for the pipe image */
+    height: 240px; /* Increase height for the pipe image */
+    padding: 15px 0px; /* Increase padding for the pipe image */
     object-fit: cover;}
 
 .pipe-info {
@@ -229,7 +229,7 @@
             text-align: center;}/* Media Query for Mobile Devices */}
 
 .background-section {
-    background: linear-gradient(to right, white, transparent), url('images/offshore\ gas\ pipe.jpeg');
+    background: linear-gradient(to right, white, transparent), url('images/offshore\ gas\ pipe.jpeg'); /* Adjust your gradient as needed */
     background-size: cover;
     padding: 20px;margin-top: 90px;}
 
