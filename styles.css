@@ -232,8 +232,7 @@
 .background-section {
     background: linear-gradient(to right, white, transparent), url('images/offshore\ gas\ pipe.jpeg'); /* Adjust your gradient as needed */
     padding: 20px;
-    margin-top: 90px;
-    width: 100%;}
+    margin-top: 90px;}
 
 
 .title-form {
